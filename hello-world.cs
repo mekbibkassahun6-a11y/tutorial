@@ -1,0 +1,22 @@
+Console.WriteLine("Hello, World!");
+string aFriend="bill";
+Console.WriteLine(aFriend);
+aFriend="beza nega";
+Console.WriteLine($"hello {aFriend}");
+string firstLove="bezicho";
+string secondLove="money bills";
+Console.WriteLine($"hello {firstLove} and {secondLove.Length}");
+string greeting = "      Hello World!       ";
+string trimmedstart=greeting.TrimStart();
+Console.WriteLine(trimmedstart);
+string trimendend=greeting.TrimEnd();
+Console.WriteLine(trimendend);
+string trimm=greeting.Trim();
+Console.WriteLine(trimm);
+string mimo="honey bee";
+string mimo_new=mimo.Replace("bee","mee");
+    Console.WriteLine(mimo_new.ToUpper());
+
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("beza"));
+Console.WriteLine(songLyrics.ToLower().StartsWith("You"));
